@@ -1,0 +1,29 @@
+{
+  "name": "harvest_executor",
+  "version": "1.0.0",
+  "description": "executes order received from evaluator and place it to kite api",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "dependencies": {
+    "chai": "^3.5.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkat299/harvest_executor.git"
+  },
+  "author": "Venkatesh Duraiarasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venkat299/harvest_executor/issues"
+  },
+  "homepage": "https://github.com/venkat299/harvest_executor#readme"
+}
