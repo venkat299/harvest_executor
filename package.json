@@ -8,6 +8,7 @@
     "test": "test"
   },
   "dependencies": {
+    "bluebird": "^3.3.5",
     "chai": "^3.5.0"
   },
   "devDependencies": {
