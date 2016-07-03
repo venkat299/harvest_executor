@@ -9,10 +9,16 @@
   },
   "dependencies": {
     "bluebird": "^3.3.5",
-    "chai": "^3.5.0"
+    "chai": "^3.5.0",
+    "mkdirp": "^0.5.1",
+    "seneca": "^2.1.0",
+    "seneca-entity": "^1.0.0",
+    "seneca-jsonfile-store": "^0.2.2"
   },
   "devDependencies": {
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "harvest_evaluator": "file:///Users/venkat299/code/harvest_api/harvest_evaluator",
+    "harvest_strategy": "file:///Users/venkat299/code/harvest_api/harvest_strategy"
   },
   "scripts": {
     "test": "mocha --recursive"
