@@ -16,9 +16,14 @@
     "seneca-jsonfile-store": "^0.2.2"
   },
   "devDependencies": {
-    "mocha": "^2.4.5",
+    "eslint": "^3.1.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.11.0",
+    "eslint-plugin-jsx-a11y": "^2.0.1",
+    "eslint-plugin-react": "^5.2.2",
     "harvest_evaluator": "file:///Users/venkat299/code/harvest_api/harvest_evaluator",
-    "harvest_strategy": "file:///Users/venkat299/code/harvest_api/harvest_strategy"
+    "harvest_strategy": "file:///Users/venkat299/code/harvest_api/harvest_strategy",
+    "mocha": "^2.4.5"
   },
   "scripts": {
     "test": "mocha --recursive"
