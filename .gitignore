@@ -5,3 +5,13 @@ Makefile
 
 
 *.log
+
+*.json
+
+*.json
+
+*.json
+
+test/test_db/seneca.txt
+
+test/test_db/strategy/2mrr2l.json

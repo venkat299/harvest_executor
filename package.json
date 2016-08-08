@@ -10,10 +10,13 @@
   "dependencies": {
     "bluebird": "^3.3.5",
     "chai": "^3.5.0",
+    "harvest_evaluator": "git+https://github.com/venkat299/harvest_evaluator.git",
+    "harvest_strategy": "git+https://github.com/venkat299/harvest_strategy.git#development",
     "mkdirp": "^0.5.1",
     "seneca": "^2.1.0",
     "seneca-entity": "^1.0.0",
-    "seneca-jsonfile-store": "^0.2.2"
+    "seneca-jsonfile-store": "^0.2.2",
+    "winston": "^2.2.0"
   },
   "devDependencies": {
     "eslint": "^3.1.1",
