@@ -12,6 +12,5 @@ Makefile
 
 *.json
 
-test/test_db/seneca.txt
 
-test/test_db/strategy/2mrr2l.json
+test/test_db/seneca.txt
