@@ -24,8 +24,8 @@
     "eslint-plugin-import": "^1.11.0",
     "eslint-plugin-jsx-a11y": "^2.0.1",
     "eslint-plugin-react": "^5.2.2",
-    "harvest_evaluator": "file:///Users/venkat299/code/harvest_api/harvest_evaluator",
-    "harvest_strategy": "file:///Users/venkat299/code/harvest_api/harvest_strategy",
+   "harvest_evaluator": "git+https://github.com/venkat299/harvest_evaluator.git",
+    "harvest_strategy": "git+https://github.com/venkat299/harvest_strategy.git#development",
     "mocha": "^2.4.5"
   },
   "scripts": {

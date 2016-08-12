@@ -69,6 +69,8 @@ const sample_signal_log = {
 
 const sample_order_entity = {
   strategy_id: 'fifty_2_wk',
+  order_id: '9eca55c7-f3cb-4a45-8855-cafe7d81a98e',
+  is_approved: false,
   tradingsymbol: 'SUZLON',
   status: 'INIT',
   order_obj: {
@@ -107,7 +109,6 @@ function initialize(done) {
       spent: 2000,
       equity_ceil: 0.2,
       shadowing: true,
-      auto_approve: false,
     });
     const entity_1_save$ = Promise.promisify(entity_1.save$, {
       context: entity_1,
@@ -173,7 +174,7 @@ describe('Order_executor{}-> shadowing mode', () => {
     const curr_track_id = 'role:executor,cmd:place_order';
     it('should return a proper/standard api response', (done) => {
       // this.timeout(5000);
-      seneca.act(curr_track_id, order_obj, (err, val) => {
+      seneca.act(curr_track_id, sample_order_entity, (err, val) => {
         if (err) done(err);
         default_api_test(val);
         expect(val.cb_msg_obj.order_id).to.exist;
